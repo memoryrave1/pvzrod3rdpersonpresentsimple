@@ -668,7 +668,7 @@
       overlay.setAttribute("aria-hidden","false");
       feedback.textContent = "";
       feedback.className = "feedback";
-      questionText.innerHTML = `Write the correct pronoun:<br/><code>${task.prompt}</code>`;
+      questionText.innerHTML = `Write the correct answer:<br/><code>${task.prompt}</code>`;
       answerInput.value = "";
       setTimeout(()=>answerInput.focus(), 50);
       lockTo(State.MODAL);
